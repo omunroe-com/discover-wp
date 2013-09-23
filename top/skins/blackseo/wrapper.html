@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>{$list_name} - {$header}</title>
+<meta http-equiv="Content-Type" content="text/html;charset={$lng->charset}" />
+<link rel="stylesheet" type="text/css" media="screen" href="{$skins_url}/{$skin_name}/style.css" />
+<link rel="alternate" href="{$list_url}/{$feed}" type="application/rss+xml" title="{$list_name}" />
+<script type="text/javascript">
+function out(username)
+{
+  image = new Image();
+  image.src= '{$list_url}/index.php?a=out&u=' + username;
+}
+</script>
+
+</HEAD>
+<BODY bgColor="#e8e8e8" leftMargin="0" topMargin="0" marginheight="0" marginwidth="0">
+<TABLE cellSpacing="0" cellPadding="0" width="950" align="center" border="0">
+  <tr>
+
+    <td>
+
+
+<TABLE cellSpacing="0" cellPadding="0" width="100%" align="center" border="0">
+        <tr bgColor="#174399">
+          <td height="70" bgcolor="#000000">
+          <p align="center"><a href="{$list_url}/"><img alt="{$list_name}" border="0" src="{$skins_url}/{$skin_name}/header.jpg"></a></td>
+        </tr>
+        <tr bgColor="#ffffff">
+          <td height="20" bgColor="#edf3ff" style="border-bottom:solid 1px #B7BEDA;">&nbsp;&nbsp;&nbsp;You are here: <strong><a href="{$list_url}">Home page</a> &gt; {$header}</strong></td>
+
+        </tr>
+      </table>
+ 
+      <TABLE cellSpacing="0" cellPadding="0" width="100%" align="center" border="0">
+        <tr>
+
+
+
+        <!-- Left column -->
+          <td width="126" bgColor="#edf3ff" valign="top" style="border-right:solid 1px #B7BEDA;">
+          
+            <table cellSpacing="0" cellPadding="0" width="100%" border="0">
+             <TR><TD bgColor="#000000" height="28"><h3>Navigation</h3></TD></TR>
+
+   <TR><TD class=navigation><IMG height="5" src="{$skins_url}/{$skin_name}/images/bullet.gif" width="5"> <a href="{$list_url}/" class="menu">{$lng->main_menu_rankings}</a> </TD></TR>
+   <TR><TD class=navigation><IMG height="5" src="{$skins_url}/{$skin_name}/images/bullet.gif" width="5"> <a href="{$list_url}/index.php?a=join" class="menu">{$lng->main_menu_join}</a></TD></TR>
+   <TR><TD class=navigation><IMG height="5" src="{$skins_url}/{$skin_name}/images/bullet.gif" width="5"> <a href="{$list_url}/index.php?a=user_cpl" class="menu">{$lng->main_menu_user_cp}</a></TD></TR>
+   <TR><TD class=navigation><IMG height="5" src="{$skins_url}/{$skin_name}/images/bullet.gif" width="5"> <a href="{$list_url}/index.php?a=stats" class="menu">{$lng->stats_overall}</a></TD></TR>
+
+
+
+
+	      <TR><TD bgColor="#000000" height="28"><h3>SITE SEARCH</h3></TD></TR>
+
+
+
+
+ <TR><TD>
+<form action="index.php" method="get" style="margin:7px 0 7px 4px;">
+		<input type="hidden" name="a" value="search" />
+		<input type="text" name="q" size="18" value="{$query}" style="width:110px;" tabindex="1" />
+
+		<input type="submit" value="{$lng->search_header}" />
+	</form>
+</TD></TR>
+
+   	    </table>
+
+          </td>
+          <!-- Middle column -->
+	  <td valign="top" bgColor="#ffffff">
+	  <center>
+
+	    <div style="padding:1px 10px 0 10px;"><h2><FONT color=#000000>Welcome to {$list_name}!</FONT></h2>
+
+<form action="index.php" method="get">
+{$ranking_methods_menu}
+{$categories_menu}
+{$multiple_pages_menu}
+		<input type="submit" value="{$lng->g_form_submit_short}" />
+	</form>
+
+
+	    <table width="100%" border="0" cellspacing="0" cellpadding="5" class="hry">
+	      <tr>
+	        <td>
+
+{$content}
+                </td>
+	      </tr>
+	    </table>
+
+
+	    </div>
+
+	  </td>
+
+	  <!-- Right column -->
+  	  <td width="126" bgColor="#edf3ff" valign="top" style="border-left:solid 1px #B7BEDA;">
+
+	
+	    <table cellSpacing="0" cellPadding="0" width="100%" border="0">   	      
+              <TR><TD bgColor="#000000" height="28"><h3 align="center">Links</h3></TD></TR>
+   <TR><TD class=navigation><IMG height="5" src="{$skins_url}/{$skin_name}/images/bullet.gif" width="5"> <a href="http://www.kamranweb.com/photos/" class="menu">Free Wallpapers</a> </TD></TR>
+   <TR><TD class=navigation><IMG height="5" src="{$skins_url}/{$skin_name}/images/bullet.gif" width="5"> <a href="http://downloadhindisongs.kamranweb.com/" class="menu">DHS</a> </TD></TR>
+   <TR><TD class=navigation><IMG height="5" src="{$skins_url}/{$skin_name}/images/bullet.gif" width="5"> <a href="http://templates.kamranweb.com/" class="menu">Free Templates</a> </TD></TR>
+   <TR><TD class=navigation><IMG height="5" src="{$skins_url}/{$skin_name}/images/bullet.gif" width="5"> <a href="http://forum.kamranweb.com/" class="menu">KWF</a> </TD></TR>
+   <TR><TD class=navigation><IMG height="5" src="{$skins_url}/{$skin_name}/images/bullet.gif" width="5"> <a href="http://rapidsharefilms.kamranweb.com/" class="menu">RS Films</a> </TD></TR>
+{include "{$skins_url}/{$skin_name}/content.php"} {$powered_by}</td>
+<!-- Link must stay on the free version, read the readme.txt -->
+
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

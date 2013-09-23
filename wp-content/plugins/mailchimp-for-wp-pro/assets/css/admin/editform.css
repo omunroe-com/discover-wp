@@ -1,0 +1,15 @@
+#mc4wp-fw h4{ margin-top:0; }
+#mc4wp-fw .mc4wp-fields { display:none; }
+#mc4wp-fw-preview { font-size:11px; }
+
+#major-publishing-actions{ border-bottom:1px solid #dfdfdf; -webkit-box-shadow: 0 1px 0 #fff; box-shadow: 0 1px 0 #fff; }
+#mc4wp-publish-notice{ padding: 10px 10px 8px; clear: both; border-top: 1px solid #f5f5f5;  }
+
+.mc4wp-notice{  padding: 5px 10px; background-color: #ffffe0 ; border: 1px solid #e6db55; border-radius: 4px; display:block;  position:relative;}
+
+table.mc4wp-help, table.mc4wp-help th, table.mc4wp-help td { border: 1px solid #ddd; border-collapse: collapse; font-size: 12px; }
+table.mc4wp-help th, table.mc4wp-help td { vertical-align: text-top; text-align: left; padding: 5px 10px; }
+table.mc4wp-help tr:hover { 	background-color: #ddd; }
+
+table.form-table td.nowrap{ white-space: nowrap; }
+table.form-table td.desc{ font-style:italic; font-size:11px; }

@@ -1,0 +1,101 @@
+== Changelog ==
+
+** 1.51 **
+- Added: total sign-ups overview to statistics
+- Added: update existing subscribers option
+- Added: replace interests option
+- Added: send welcome email option
+- Improved: responsiveness of setting pages
+- Enhancement: enabled logging by default
+
+** 1.50 **
+- Fixed Contact Form 7 custom checkbox label
+- Fixed label functionality when more than 1 sign-up checkbox per page
+- Added: search to subscribers log
+- Added: delete to subscribers log
+- Added: statistics charts
+- Improved: AJAX forms now work with FORCE_ADMIN_SSL set to true as well.
+
+** 1.42 **
+- Improved: automatic remote deactivating of license upon plugin deactivation, to allow licen
+se activation on different URL. (test environment / production environment for example)
+- Improved AJAX spinner CSS
+- Improved form submit function, field names are case insensitive again
+- Improved: Lite settings are no longer overwriting Pro settings when switching between plugins.
+- Improved: Better compatibility with third-party registration form plugins.
+- Added: nice name for various subscribe methods in subscribers log
+- Added: the database log table will now be removed when uninstalling the plugin
+
+** 1.41 **
+- Fixed empty checkbox label text after first save.
+
+** 1.4 **
+- Fixed: notice undefined index 'edd_checkout'
+- Added: compatibility with WooCommerce
+- Added: compatibility with bbPress
+- Added: possibility to change checkbox label texts for each individual sign-up checkbox hook.
+- Improved: Usability improvements
+- Improved: Checkbox label now wraps checkbox input element
+- Improved: Checkbox default CSS
+
+** 1.33 **
+- Bugfix: interest groupings now work with new MailChimp API.
+- Bugfix: AJAX enabled but JavaScript disabled now shows feedback again.
+- Improved: field wizard now wraps checkboxes and radio inputs with label element.
+
+** 1.32 **
+- Fixed spam comments not being filtered
+- Added groupings and groups to field wizard
+- Added form markup transfer from Lite upon activation
+- Improved integration with Contact Form 7
+- Improved integration with third-party forms
+
+
+** 1.31 **
+- Improved: showed sign-up forms on form settings page, no need for separate page
+- Improved: showed warning message in overview when no lists selected
+- Added: {current_url} and {time} to form variables
+- Fixed: checkbox shortcode for Contact Form 7
+- Fixed: checkbox in other forms
+- Added: when adding checkbox to other forms you can now send unlimited fields, just use a name attribute in this format: name="mc4wp-*"
+- Added: Checkbox compatibility with Easy Digital Downloads
+
+** 1.3 **
+- Improved code, less memory usage.
+- Improved default form and checkbox CSS
+- Fixed colon after placeholder
+- Improved now using MailChimp API version 2.0
+- Improved removed MailChimp API wrapper, now using WordPress HTTP API.
+- Added logging of everyone who subscribes
+
+** 1.2 **
+- Added admin notice when both Lite and Pro are activated.
+- Improved: settings from lite will now be transfered to Pro upon plugin activation.
+- Improved: Form wizard now pulls merge fields from MailChimp
+- Improved: Form wizard now autocompletes field "name" attributes
+- Improved: Form wizard now has all your merge fields as preset options.
+- Improved: AJAX submissions are now much faster.
+- Fixed bug where AJAX submissions were not redirected
+- Fixed bug where AJAX submissions were sending two sign-up requests
+- Added: Form variables like {user_email} for logged in users
+- Added: HTML 5 input fields like URL, telephone number and date.
+
+** 1.1 **
+- Added: "edit form" link on frontend for administrators
+- Added: notice on frontend when no list selected for form
+- Added: support for group checkboxes
+- Fixed: Alerts now disappearing when submitting AJAX form for second time
+- Fixed: General error message now also shown after AJAX submission
+- Improved: form field wizard. Much easier to add group fields.
+- Improved: Group input format
+
+** 1.0.1 **
+- Fixed: plugin is now compatible with WP 3.1.x.
+- Fixed: Support link on settings pages now works correctly.
+- Fixed checkbox bug where it was only working with the comment form.
+- Improved: notices, success and error messages are now wrapped in <div> instead of <p> tags.
+- Improved: Removed name attribute of submit field in default form markup.
+- Improved: Added automatic guessing of first and last name fields
+- Improved: Moved form settings above publish button
+- Improved: Showed notice when no form field selected
+- Improved: No window jump when pushing "add to form" button
