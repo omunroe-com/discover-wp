@@ -58,9 +58,14 @@ ul.sf-menu li li li.sfHover ul {
 
 /*** DEMO SKIN ***/
 .sf-menu {
-	text-align: left;
+	text-align: center;
 	/*float:			left;*/
 }
+
+.sf-menu .sub-menu {
+    text-align: left;
+}
+
 .sf-menu a {
 	padding: .85em 1.3em;
 	text-decoration:none;
