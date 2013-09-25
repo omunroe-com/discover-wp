@@ -42,6 +42,8 @@ $slider = new WP_Query($args);
 	  
 	  $j('.flexslider').flexslider({
 		animation: "fade",
+                slideshowSpeed: 10000,           
+                animationSpeed: 1000,
 		start: function(slider){
 		  $j('#cp_1').fadeIn();
 		},
