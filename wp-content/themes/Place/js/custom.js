@@ -133,7 +133,14 @@ $j(document).ready(function(){
 			});
 		});
 	}
-	
+        
+        //Check if sidebar is hidden
+        if( $j('#sidebar').is(':hidden')) {
+          //Find Social widget and move it to content
+          if($j("#sidebar > div.widget_socials").length){
+            $j("#sidebar > div.widget_socials").appendTo("#leftContent > .inner"); 
+          }
+        }
 	
 	theme_init();
 
