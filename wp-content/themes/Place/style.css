@@ -994,6 +994,9 @@ Text Domain: http://themeforest.net/user/PressLayer/?ref=PressLayer
 	
 /** RESPONSIVE
 -------------------------------------------- **/
+@media only screen and (max-width: 1024px) and (orientation:landscape) {
+  .post_col { padding:0 15px; margin-bottom:20px; }
+}    
 @media only screen and (max-width: 959px) {
 	
 	.container { max-width : 760px; }
