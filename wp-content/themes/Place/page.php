@@ -38,7 +38,8 @@
 			<?php } // if(video_embed) ;?>	
 			<div class="social_share <?php echo $title_top_class ;?>">
 			<?php /*social_share();*/ ?>
-                        <?php print get_shr_like_buttonset('Top'); ?>    
+                        <?php /*print get_shr_like_buttonset('Top'); */?>
+                        <?php sharethis_button(); ?>    
 			</div>
 			
 			<div class="post_single_inner">
