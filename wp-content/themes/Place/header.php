@@ -45,6 +45,7 @@
 			
 			<form method="get" id="searchform" action="<?php echo home_url();?>">
 			<div class="header_search"><div class="search_zoom search_btn"></div> <input id="s" name="s"   type="text" placeholder="<?php _e('Busca...','presslayer');?>" class="search_box" /> </div>	</form>	
+                        <?php do_action('icl_language_selector'); ?>
 		</div>	
 	</div><!-- #header -->
 	

@@ -990,6 +990,12 @@ Text Domain: http://themeforest.net/user/PressLayer/?ref=PressLayer
 	#img-attch-page img{display: inline-block;margin: 0 auto; max-width: 100%;border: 5px solid #d4d4d4; /*for IE*/width: 100%;-moz-box-sizing: border-box;	-webkit-box-sizing: border-box;	box-sizing: border-box;	border-color: rgba(0,0,0, 0.08);-webkit-transition: border 0.3s ease; -o-transition: border 0.3s ease;    -moz-transition: border 0.3s ease;}
 	#img-attch-page a:hover img{border-color: #fc7251;}
 	#img-attach-page-content{text-align: center;margin-top: 25px;}	
+        
+#header #lang_sel_click {
+  position: absolute;
+  right: 0;
+  top: -10%;  
+}        
 	
 	
 /** RESPONSIVE
@@ -1032,7 +1038,7 @@ Text Domain: http://themeforest.net/user/PressLayer/?ref=PressLayer
 	#main { padding: 10px 10px 0px;}
 	#header { padding:10px;}
 	
-	#logo { float:none; text-align:center; margin:0; margin-bottom:10px }
+	#logo { float:none; text-align:center; margin:0; margin-bottom:25px }
 	#logo img { display:inline; }
 	#top_menu { float:none; width:auto }
 	#top_menu .sf-menu,
@@ -1083,7 +1089,7 @@ Text Domain: http://themeforest.net/user/PressLayer/?ref=PressLayer
 	#footer .ft_left,
 	#footer .ft_right { float: none; text-align: center; }
 	#footer .ft_left { margin-bottom:10px;}
-	
+        #header #lang_sel_click { top: 50%;}
 }
 
 @media only screen and (max-width: 550px) {
@@ -1150,7 +1156,7 @@ aside#cUsMC_form_widget{
 	background:url(images/mail_border.png) bottom repeat-x; 
 }
 .l1Il1bbdO0newsletterTemplate6 .l1Il1bbdO0cttus-box{
-	font-family: "quicksandbook", "Times New Roman", Times, serif;!important
+    font-family: "quicksandbook", "Times New Roman", Times, serif !important;
     font-size: auto!important;
     line-height: auto!important;
     margin: 0!important;
