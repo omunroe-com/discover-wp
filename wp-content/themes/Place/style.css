@@ -98,7 +98,7 @@ Text Domain: http://themeforest.net/user/PressLayer/?ref=PressLayer
 		width:100%; margin-bottom:18px;
 		border-top: 1px solid #eee; border-left: 1px solid #eee;
 	}
-	table,td,th { text-align:left; }
+	table,td,th { text-align:left !important; }
 	th{padding:10px;}
 	td{padding:10px;}
 	tfoot td{border:0px;}

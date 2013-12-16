@@ -77,9 +77,9 @@ $j(document).ready(function(){
     });
 	
 	// Thumb hover
-	if ( $j( '.thumb_hover' ).length && jQuery() ) {
+	/*if ( $j( '.thumb_hover' ).length && jQuery() ) {
 		thumb_hover('.thumb_hover');
-	}
+	}*/
 
 	
 

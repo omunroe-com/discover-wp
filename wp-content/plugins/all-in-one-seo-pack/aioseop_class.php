@@ -1319,7 +1319,7 @@ function aiosp_google_analytics() {
 	ob_start();
 	?>
 		<script type="text/javascript">
-
+                  window['ga-disable-<?php echo $aioseop_options['aiosp_google_analytics_id'];  ?>'] = this.cookillian.blocked_cookies;                        
 		  var _gaq = _gaq || [];
 		  _gaq.push(['_setAccount', '<?php echo $aioseop_options['aiosp_google_analytics_id'];  ?>']);
 <?php if ( !empty( $aioseop_options['aiosp_ga_multi_domain'] ) ) {
@@ -2329,4 +2329,3 @@ function aiosp_google_analytics() {
 <?php
 	}
 }
-
