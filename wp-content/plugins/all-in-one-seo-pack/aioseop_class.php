@@ -1318,8 +1318,7 @@ function aiosp_google_analytics() {
 	global $aioseop_options;
 	ob_start();
 	?>
-		<script type="text/javascript">
-                  window['ga-disable-<?php echo $aioseop_options['aiosp_google_analytics_id'];  ?>'] = this.cookillian.blocked_cookies;                        
+		<script type="text/javascript">                                     
 		  var _gaq = _gaq || [];
 		  _gaq.push(['_setAccount', '<?php echo $aioseop_options['aiosp_google_analytics_id'];  ?>']);
 <?php if ( !empty( $aioseop_options['aiosp_ga_multi_domain'] ) ) {

@@ -1,11 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://blog.discovercanarias.com/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.6" -->
 <!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.9" -->
-<!-- generated-on="13 December, 2013 12:14 pm" -->
+<!-- generated-on="30 December, 2013 1:35 pm" -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
 		<loc>http://blog.discovercanarias.com/</loc>
-		<lastmod>2013-12-13T12:14:16+00:00</lastmod>
+		<lastmod>2013-12-30T13:34:44+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/que-hacer-en-canarias-del-27-al-29-de-diciembre/</loc>
+		<lastmod>2013-12-30T13:34:44+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/desayuno-entre-vinedos-en-bodegas-monje/</loc>
+		<lastmod>2013-12-30T13:28:35+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/en/52-hiking-routes-in-the-canaries2783/</loc>
+		<lastmod>2013-12-30T09:30:18+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/en/climb-to-bejenado-peak/</loc>
+		<lastmod>2013-12-30T09:15:15+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/en/who-hasnt-dreamed-about-flying/</loc>
+		<lastmod>2013-12-29T20:04:07+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/en/race-driver-for-a-day-with-copi-capdevilla/</loc>
+		<lastmod>2013-12-26T17:46:41+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/en/what-to-do-in-the-canary-islands-from-december-27th-to-29th/</loc>
+		<lastmod>2013-12-26T16:07:26+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/bases-legales-ii-concurso-discover-canarias/</loc>
+		<lastmod>2013-12-26T15:17:57+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/ymaguara-turismo-sostenible-en-la-gomera/</loc>
+		<lastmod>2013-12-24T13:22:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/albert-amat-el-nacimiento-de-un-sueno/</loc>
+		<lastmod>2013-12-24T10:02:09+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/en/the-last-16-km-of-canarias-challenge-the-first-ones-in-my-life/</loc>
+		<lastmod>2013-12-22T20:22:35+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/en/samara-volcano-and-reventada-mountain/</loc>
+		<lastmod>2013-12-21T18:42:45+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/en/canarian-defiance-dario-dortas-challenge/</loc>
+		<lastmod>2013-12-21T17:41:41+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/en/corporate-social-responsibility-nivaria-and-discover-in-the-global-compact/</loc>
+		<lastmod>2013-12-21T17:39:50+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/en/lanzarote-los-gracioseros-people-from-la-graciosa-route/</loc>
+		<lastmod>2013-12-21T17:38:17+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/en/volcanic-experience-baptism-of-walking-and-gourmet/</loc>
+		<lastmod>2013-12-21T17:36:53+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/que-hacer-canarias-diciembre-actividades/</loc>
+		<lastmod>2013-12-20T13:30:14+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/quien-no-ha-sonado-volar/</loc>
+		<lastmod>2013-12-19T21:33:07+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/el-teide-bajo-la-lluvia-de-geminidas/</loc>
+		<lastmod>2013-12-19T19:04:57+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/ii-concurso-discover-canarias-gana-una-una-gopro-hero-3-y-50-regalos-mas/</loc>
+		<lastmod>2013-12-16T16:41:03+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
 	</url>
 	<url>
 		<loc>http://blog.discovercanarias.com/pilotos-por-un-dia-copi-capdevila/</loc>
@@ -56,18 +176,6 @@
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>http://blog.discovercanarias.com/ii-concurso-discover-canarias-gana-una-una-gopro-hero-3-y-50-regalos-mas/</loc>
-		<lastmod>2013-12-11T13:06:57+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-	<url>
-		<loc>http://blog.discovercanarias.com/bases-legales-ii-concurso-discover-canarias/</loc>
-		<lastmod>2013-12-11T12:57:46+00:00</lastmod>
-		<changefreq>weekly</changefreq>
-		<priority>0.6</priority>
-	</url>
-	<url>
 		<loc>http://blog.discovercanarias.com/hazte-un-experto-en-sushi/</loc>
 		<lastmod>2013-12-11T12:53:12+00:00</lastmod>
 		<changefreq>monthly</changefreq>
@@ -82,18 +190,6 @@
 	<url>
 		<loc>http://blog.discovercanarias.com/recetas-de-cocina-japonesa-con-dani-franco/</loc>
 		<lastmod>2013-12-11T12:44:30+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-	<url>
-		<loc>http://blog.discovercanarias.com/en/volcanic-experience-baptism-of-walking-and-gourmet/</loc>
-		<lastmod>2013-12-06T12:11:34+00:00</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.2</priority>
-	</url>
-	<url>
-		<loc>http://blog.discovercanarias.com/en/lanzarote-los-gracioseros-people-from-la-graciosa-route/</loc>
-		<lastmod>2013-12-06T12:09:02+00:00</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.2</priority>
 	</url>
@@ -392,12 +488,12 @@
 		<priority>0.3</priority>
 	</url>
 	<url>
-		<loc>http://blog.discovercanarias.com/tag/anticorrupcion/</loc>
+		<loc>http://blog.discovercanarias.com/tag/aventura/</loc>
 		<changefreq>weekly</changefreq>
 		<priority>0.3</priority>
 	</url>
 	<url>
-		<loc>http://blog.discovercanarias.com/tag/aventura/</loc>
+		<loc>http://blog.discovercanarias.com/tag/bodegas/</loc>
 		<changefreq>weekly</changefreq>
 		<priority>0.3</priority>
 	</url>
@@ -412,17 +508,7 @@
 		<priority>0.3</priority>
 	</url>
 	<url>
-		<loc>http://blog.discovercanarias.com/tag/circuito/</loc>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
-	</url>
-	<url>
 		<loc>http://blog.discovercanarias.com/tag/concursos-2/</loc>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
-	</url>
-	<url>
-		<loc>http://blog.discovercanarias.com/tag/conduccion/</loc>
 		<changefreq>weekly</changefreq>
 		<priority>0.3</priority>
 	</url>
@@ -432,7 +518,7 @@
 		<priority>0.3</priority>
 	</url>
 	<url>
-		<loc>http://blog.discovercanarias.com/tag/copilotaje/</loc>
+		<loc>http://blog.discovercanarias.com/tag/emprendedores/</loc>
 		<changefreq>weekly</changefreq>
 		<priority>0.3</priority>
 	</url>
@@ -462,16 +548,6 @@
 		<priority>0.3</priority>
 	</url>
 	<url>
-		<loc>http://blog.discovercanarias.com/tag/guimar/</loc>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
-	</url>
-	<url>
-		<loc>http://blog.discovercanarias.com/tag/ideas/</loc>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
-	</url>
-	<url>
 		<loc>http://blog.discovercanarias.com/tag/kayak/</loc>
 		<changefreq>weekly</changefreq>
 		<priority>0.3</priority>
@@ -483,11 +559,6 @@
 	</url>
 	<url>
 		<loc>http://blog.discovercanarias.com/tag/lanzarote/</loc>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
-	</url>
-	<url>
-		<loc>http://blog.discovercanarias.com/tag/las-lagunetas/</loc>
 		<changefreq>weekly</changefreq>
 		<priority>0.3</priority>
 	</url>
@@ -507,11 +578,6 @@
 		<priority>0.3</priority>
 	</url>
 	<url>
-		<loc>http://blog.discovercanarias.com/tag/negocio/</loc>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
-	</url>
-	<url>
 		<loc>http://blog.discovercanarias.com/tag/ninos/</loc>
 		<changefreq>weekly</changefreq>
 		<priority>0.3</priority>
@@ -523,11 +589,6 @@
 	</url>
 	<url>
 		<loc>http://blog.discovercanarias.com/tag/paddle-surf/</loc>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
-	</url>
-	<url>
-		<loc>http://blog.discovercanarias.com/tag/papeo/</loc>
 		<changefreq>weekly</changefreq>
 		<priority>0.3</priority>
 	</url>
@@ -547,27 +608,7 @@
 		<priority>0.3</priority>
 	</url>
 	<url>
-		<loc>http://blog.discovercanarias.com/tag/restaurante/</loc>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
-	</url>
-	<url>
 		<loc>http://blog.discovercanarias.com/tag/restaurantes/</loc>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
-	</url>
-	<url>
-		<loc>http://blog.discovercanarias.com/tag/revenue-management/</loc>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
-	</url>
-	<url>
-		<loc>http://blog.discovercanarias.com/tag/rse/</loc>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
-	</url>
-	<url>
-		<loc>http://blog.discovercanarias.com/tag/rutas/</loc>
 		<changefreq>weekly</changefreq>
 		<priority>0.3</priority>
 	</url>
@@ -587,11 +628,6 @@
 		<priority>0.3</priority>
 	</url>
 	<url>
-		<loc>http://blog.discovercanarias.com/tag/teide/</loc>
-		<changefreq>weekly</changefreq>
-		<priority>0.3</priority>
-	</url>
-	<url>
 		<loc>http://blog.discovercanarias.com/tag/tenerife/</loc>
 		<changefreq>weekly</changefreq>
 		<priority>0.3</priority>
@@ -603,6 +639,11 @@
 	</url>
 	<url>
 		<loc>http://blog.discovercanarias.com/tag/triatlon/</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.3</priority>
+	</url>
+	<url>
+		<loc>http://blog.discovercanarias.com/tag/vinos/</loc>
 		<changefreq>weekly</changefreq>
 		<priority>0.3</priority>
 	</url>
